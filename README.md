@@ -1,0 +1,2 @@
+# HoroscopeApp
+initial commit
