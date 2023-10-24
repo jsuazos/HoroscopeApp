@@ -55,9 +55,9 @@ class HoroscopeFragment : Fragment() {
                 HoroscopeInfo.Taurus -> HoroscopeModel.Taurus
                 HoroscopeInfo.Virgo -> HoroscopeModel.Virgo
             }
-//            findNavController().navigate(
-//                HoroscopeFragmentDirections.actionHoroscopeFragmentToHoroscopeDetailActivity(type)
-//            )
+            findNavController().navigate(
+                HoroscopeFragmentDirections.actionHoroscopeFragmentToHoroscopeDetailActivity(type)
+            )
         })
         binding.rvHoroscope.apply {
             layoutManager = GridLayoutManager(context, 2)
